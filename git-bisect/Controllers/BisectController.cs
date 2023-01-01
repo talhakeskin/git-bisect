@@ -19,6 +19,7 @@ namespace git_bisect.Controllers
             result.Substraction = this.Substraction(result.X, result.Y);
             result.Addition = this.Addition(result.X, result.Y);
             result.Multiplication = this.Multiplication(result.X, result.Y);
+            result.Division = this.Division(result.X, result.Y);
 
             return View(result);
         }
@@ -36,6 +37,11 @@ namespace git_bisect.Controllers
         private int Multiplication (int x, int y)
         {
             return x * y;
+        }
+
+        private int Division (int x, int y)
+        {
+            return x / y;
         }
     }
 }
