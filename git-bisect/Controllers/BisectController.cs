@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using git_bisect.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace git_bisect.Controllers
 {
@@ -9,7 +10,10 @@ namespace git_bisect.Controllers
         [HttpGet(Name = "Index")]
         public IActionResult Index()
         {
-            return View();
+            var result = new ResultModel();
+
+
+            return View(result);
         }
     }
 }
