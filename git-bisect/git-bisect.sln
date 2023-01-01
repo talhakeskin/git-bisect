@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "git-bisect", "git-bisect.csproj", "{50727EB1-D495-4897-9BCB-FD2FB2B2317D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50727EB1-D495-4897-9BCB-FD2FB2B2317D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50727EB1-D495-4897-9BCB-FD2FB2B2317D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50727EB1-D495-4897-9BCB-FD2FB2B2317D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50727EB1-D495-4897-9BCB-FD2FB2B2317D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08873A6C-D41E-4606-8256-E9861C0F22CB}
+	EndGlobalSection
+EndGlobal

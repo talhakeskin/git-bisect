@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/git-bisect/bin/Debug/net6.0
+/git-bisect/obj
+/git-bisect/.vs/git-bisect/v17
